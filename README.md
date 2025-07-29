@@ -2,6 +2,10 @@
 Overview
 This project is designed to generate SQL scripts that create global location data in a custom table structure. The core objective is to generate SQL INSERT statements that define a hierarchical structure of countries, states, and cities based on a dynamic source of geographical information. This data can be customized based on the requirements of specific projects and used to populate any location-related database tables.
 
+We are loading datas from the following github repo
+https://github.com/dr5hn/countries-states-cities-database
+Thanks to @dr5hn
+
 Key Features:
 Retrieves country, state, and city data from a publicly available JSON source.
 
